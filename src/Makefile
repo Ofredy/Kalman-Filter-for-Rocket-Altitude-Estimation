@@ -1,6 +1,6 @@
 # Complilation Rules
 CXX = g++
-FLAGS = -g
+FLAGS = -Wall -g
 OUTPUT = kalman_filter
 
 # Paths
@@ -12,6 +12,7 @@ INCS = $(wildcard $(IDIR)/*.h)
 CPP_FILES = $(wildcard *.cpp)
 OBJS = $(CPP_FILES:%.cpp=$(ODIR)/%.o)
 
+# Project Complilation
 main: $(OBJS)
 	$(CXX) $(FLAGS) $(OBJS) -o $(OUTPUT)
 
@@ -19,6 +20,7 @@ $(ODIR)/%.o: %.cpp
 	if not exist $(ODIR) mkdir $(ODIR)
 	$(CXX) $(FLAGS) -c $< -o $@
 
+# Project Clean Up
 clean:
 	if exist $(OUTPUT).exe del $(OUTPUT).exe
 	if exist $(ODIR) rmdir /Q /S $(ODIR)	
