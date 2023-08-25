@@ -7,6 +7,6 @@ I recreated the kalman filter for rocket altitude estimation from the python scr
 To Compile run the Makefile in the src folder.
   - NOTE: THE Makefile was made for windows, changes may be needed to run on linux
   - Commands to build and run the code are:
-    - cd to src
-    - make
-    - ./kalman_filter
+      - cd to src
+      - make
+      - ./kalman_filter
