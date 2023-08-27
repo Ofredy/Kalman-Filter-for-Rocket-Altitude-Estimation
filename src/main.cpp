@@ -2,10 +2,13 @@
 
 #include "../include/configs.h"
 
-
 int main()
 {
-    cout << "THIS WORKS" << endl;
-    cout << NUM_MEASUREMENTS << endl;
+
+    std::cout << "Printing Measurement Data" << std::endl;
+
+    std::cout << ALTITUDE_MEASUREMENTS << std::endl;
+    std::cout << ACCELERATION_MEASUREMENTS << std::endl;
+
     return 0;
 }

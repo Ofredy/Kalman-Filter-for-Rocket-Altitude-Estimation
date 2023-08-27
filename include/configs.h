@@ -5,8 +5,7 @@
 #include <vector>
 #include <cmath>
 
-using namespace std;
-
+#include <Gauss/Gauss.h>
 
 // System Constants
 extern const double DELTA_T;                                // s
@@ -15,21 +14,20 @@ extern const double DELTA_T;                                // s
 extern const double ACCELEROMETER_MEASUREMENT_ERR_STD;      //  m/(s^2)
 
 // State Transition Matrix F
-extern const vector<vector<double>> F; 
+extern const Gs::Matrix<double, 2, 2> F; 
 
 // Control Matrix G
-extern const vector<vector<double>> G;
+extern const Gs::Matrix<double, 2, 1> G;
 
 // Process Noise Matrix Q
-extern const vector<vector<double>> Q;
+extern const Gs::Matrix<double, 2, 2> Q;
 
 // Measurement Uncertainty R
 #define R   400
 
 // Altitude and Acceleration Measurements
 #define NUM_MEASUREMENTS    30
-extern const vector<vector<double>> ALTITUDE_MEASUREMENTS;
-extern const vector<vector<double>> ACCELERATION_MEASUREMENTS;
-
+extern const Gs::Matrix<double, 1, NUM_MEASUREMENTS> ALTITUDE_MEASUREMENTS;
+extern const Gs::Matrix<double, 1, NUM_MEASUREMENTS> ACCELERATION_MEASUREMENTS;
 
 #endif

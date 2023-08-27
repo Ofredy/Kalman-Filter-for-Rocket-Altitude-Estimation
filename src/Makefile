@@ -6,6 +6,7 @@ OUTPUT = kalman_filter
 # Paths
 IDIR =../include
 ODIR = obj
+GAUSSIAN_LIB_PATH = ../libs/GaussianLib/include
 
 # Files
 INCS = $(wildcard $(IDIR)/*.h)
@@ -18,7 +19,7 @@ main: $(OBJS)
 
 $(ODIR)/%.o: %.cpp
 	if not exist $(ODIR) mkdir $(ODIR)
-	$(CXX) $(FLAGS) -c $< -o $@
+	$(CXX) $(FLAGS) -I $(GAUSSIAN_LIB_PATH) -c $< -o $@
 
 # Project Clean Up
 clean:
