@@ -1,12 +1,12 @@
 # Complilation Rules
 CXX = g++
 FLAGS = -Wall -g
-OUTPUT = kalman_filter
+OUTPUT = rocket_attitude_estimation
 
 # Paths
-IDIR =../include
-ODIR = obj
+IDIR = ../include 
 GAUSSIAN_LIB_PATH = ../libs/GaussianLib/include
+ODIR = obj
 
 # Files
 INCS = $(wildcard $(IDIR)/*.h)

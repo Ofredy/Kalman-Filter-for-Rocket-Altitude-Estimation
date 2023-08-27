@@ -1,5 +1,5 @@
-#ifndef CONFIGS
-#define CONFIGS
+#ifndef _CONFIGS_
+#define _CONFIGS_
 
 #include <iostream>
 #include <vector>

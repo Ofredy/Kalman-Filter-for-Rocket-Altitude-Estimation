@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "../include/configs.h"
+#include "../include/kalman_filter.h"
 
 int main()
 {
