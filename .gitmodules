@@ -1,3 +1,0 @@
-[submodule "src/libs/GaussianLib"]
-	path = src/libs/GaussianLib
-	url = https://github.com/LukasBanana/GaussianLib.git
