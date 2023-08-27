@@ -9,4 +9,4 @@ To Compile run the Makefile in the src folder.
   - Commands to build and run the code are:
       - cd to src
       - make
-      - ./kalman_filter
+      - ./rocket_attitude_estimation
