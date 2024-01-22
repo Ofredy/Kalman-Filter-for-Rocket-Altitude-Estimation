@@ -7,7 +7,8 @@ OUTPUT = rocket_attitude_estimation
 IDIR = ../include 
 GAUSSIAN_LIB_PATH = ../libs/GaussianLib/include
 ODIR = obj
-DATA_PATH = data_rocket_altitude_estimation.txt
+DATA_PATH = results/data_rocket_altitude_estimation.txt
+RESULTS_PLOT = results/rocket_altitude_kf_results.jpg
 
 # Files
 INCS = $(wildcard $(IDIR)/*.h)
@@ -26,6 +27,7 @@ $(ODIR)/%.o: %.cpp
 clean:
 	if exist $(OUTPUT).exe del $(OUTPUT).exe
 	if exist $(DATA_PATH) del $(DATA_PATH)
+	if exist $(RESULTS_PLOT) del $(RESULTS_PLOT)
 	if exist $(ODIR) rmdir /Q /S $(ODIR)	
 
 # Print Files
