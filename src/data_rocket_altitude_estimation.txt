@@ -1,0 +1,180 @@
+time_step 0
+State Estimate
+/ 3.66812 \
+\ 0.86314 /
+Altitude Measurements
+6.43
+time_step 1
+State Estimate
+/ 3.35663 \
+\ 7.46832 /
+Altitude Measurements
+1.3
+time_step 2
+State Estimate
+/ 18.7926 \
+\ 25.8534 /
+Altitude Measurements
+39.43
+time_step 3
+State Estimate
+/ 33.5926 \
+\ 40.2314 /
+Altitude Measurements
+45.89
+time_step 4
+State Estimate
+/ 43.4145 \
+\ 46.6924 /
+Altitude Measurements
+41.44
+time_step 5
+State Estimate
+/ 53.3588 \
+\ 52.0606 /
+Altitude Measurements
+48.7
+time_step 6
+State Estimate
+/ 71.0828 \
+\  62.378 /
+Altitude Measurements
+78.06
+time_step 7
+State Estimate
+/ 85.1026 \
+\  68.177 /
+Altitude Measurements
+80.08
+time_step 8
+State Estimate
+/ 90.0568 \
+\ 67.6417 /
+Altitude Measurements
+61.77
+time_step 9
+State Estimate
+/ 98.1649 \
+\ 69.6401 /
+Altitude Measurements
+75.15
+time_step 10
+State Estimate
+/ 114.797 \
+\ 76.2486 /
+Altitude Measurements
+110.39
+time_step 11
+State Estimate
+/ 132.952 \
+\ 82.8168 /
+Altitude Measurements
+127.83
+time_step 12
+State Estimate
+/ 155.634 \
+\ 90.7949 /
+Altitude Measurements
+158.75
+time_step 13
+State Estimate
+/ 173.902 \
+\ 96.0797 /
+Altitude Measurements
+156.55
+time_step 14
+State Estimate
+/ 202.097 \
+\ 104.789 /
+Altitude Measurements
+213.32
+time_step 15
+State Estimate
+/  229.36 \
+\ 112.344 /
+Altitude Measurements
+229.82
+time_step 16
+State Estimate
+/ 259.283 \
+\ 120.179 /
+Altitude Measurements
+262.8
+time_step 17
+State Estimate
+/ 291.677 \
+\ 128.101 /
+Altitude Measurements
+297.57
+time_step 18
+State Estimate
+/ 326.682 \
+\ 136.186 /
+Altitude Measurements
+335.69
+time_step 19
+State Estimate
+/ 362.775 \
+\ 144.006 /
+Altitude Measurements
+367.92
+time_step 20
+State Estimate
+/ 395.882 \
+\ 150.414 /
+Altitude Measurements
+377.19
+time_step 21
+State Estimate
+/  430.62 \
+\ 156.862 /
+Altitude Measurements
+411.18
+time_step 22
+State Estimate
+/ 469.191 \
+\  163.98 /
+Altitude Measurements
+460.7
+time_step 23
+State Estimate
+/ 504.636 \
+\ 169.855 /
+Altitude Measurements
+468.39
+time_step 24
+State Estimate
+/   548.9 \
+\ 177.576 /
+Altitude Measurements
+553.9
+time_step 25
+State Estimate
+/ 592.781 \
+\  184.77 /
+Altitude Measurements
+583.97
+time_step 26
+State Estimate
+/ 642.006 \
+\ 192.759 /
+Altitude Measurements
+655.15
+time_step 27
+State Estimate
+/ 695.385 \
+\ 201.184 /
+Altitude Measurements
+723.09
+time_step 28
+State Estimate
+/ 745.36 \
+\ 208.43 /
+Altitude Measurements
+736.85
+time_step 29
+State Estimate
+/ 797.001 \
+\ 215.623 /
+Altitude Measurements
+787.22

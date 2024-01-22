@@ -1,7 +1,7 @@
 #include "../include/configs.h"
 
 // System Constants
-const double DELTA_T = 0.25;                              // m/s
+const double DELTA_T = 0.25;                              // s
 const double ACCELEROMETER_MEASUREMENT_ERR_STD = 0.1;     //  m/(s^2)
 
 // State Transition Matrix F

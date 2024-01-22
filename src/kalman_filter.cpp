@@ -50,7 +50,7 @@ void KalmanFilter::rocket_altitude_kalman_filter(std::ofstream& output_file,
         output_file << "State Estimate" << std::endl;
         output_file << X_t;
         output_file << "Altitude Measurements" << std::endl;
-        output_file << ALTITUDE_MEASUREMENTS[time_step] << std::endl << std::endl;
+        output_file << ALTITUDE_MEASUREMENTS[time_step] << std::endl;
 
         // Update the estimate uncertainty
         P_t_calc_step = I - K_t * H;
