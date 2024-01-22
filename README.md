@@ -16,4 +16,5 @@ To Compile run the Makefile in the src folder.
       - python plotting_results.py
 
 The results of the rocket altitude kalman filter are:
+
 ![alt text](src/results/rocket_altitude_kf_results.jpg?raw=true)
